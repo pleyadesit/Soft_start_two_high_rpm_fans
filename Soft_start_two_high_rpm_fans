@@ -36,7 +36,7 @@ void loop()
       analogWrite(Ventilador2, i);
       delay(25);
     }
-    delay (15000);
+    delay(15000);
     analogWrite(Ventilador2, LOW);
   }
 }
