@@ -26,7 +26,6 @@ void loop()
     }
     delay(3000);
     analogWrite(Ventilador1, LOW);
-    //digitalWrite(Ventilador1, LOW);
   }
 
   EstadoBotonVentilador2 = digitalRead(BotonVentilador2);
